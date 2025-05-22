@@ -1,1 +1,4 @@
 *.dSYM
+*.out
+.vscode
+.cache
