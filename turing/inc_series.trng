@@ -1,0 +1,16 @@
+begin * [P0, R, Px, R, P0] goto0
+goto0 0 L findx
+goto0 * L goto0
+findx 0 [] nox
+findx x [] yesx
+findx * [L] findx
+goto0r 0 R init
+goto0r * R goto0r
+nox * R goto0r
+init . [Px, R, P0] goto0
+init * R init
+yesx x [E, R] goto0ry
+goto0ry 0 R gotoN
+goto0ry * R goto0ry
+gotoN . [Px, R, P1] goto0
+gotoN * R gotoN

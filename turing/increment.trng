@@ -1,0 +1,8 @@
+begin . [Px, R, P0] add1
+add1 0 [P1] gotor
+add1 1 [P0, L] add1
+add1 x [R, P1, R] enlarge
+enlarge . [P0] add1
+enlarge * [P0, R] enlarge
+gotor . [L] add1
+gotor * [R] gotor

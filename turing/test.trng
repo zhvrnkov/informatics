@@ -1,0 +1,11 @@
+begin * [Pe, R, Pe, R, P0, R, R, P0, L, L] d
+d 1 [R, Px, L, L, L] d
+d 0 [] q
+q 0 [R, R] q
+q 1 [R, R] q
+q N [P1, L] p
+p x [PN, R] q
+p e [R] f
+p N [L, L] p 
+f N [P0, L, L] d
+f * [R, R] f
