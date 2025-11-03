@@ -1,0 +1,1 @@
+clang++ -std=c++20 -g test.cpp -I/opt/homebrew/Cellar/gmp/6.3.0/include -L/opt/homebrew/Cellar/gmp/6.3.0/lib -lgmp -I$(brew --prefix boost)/include -L/opt/homebrew/opt/boost/lib -lboost_locale -o main
